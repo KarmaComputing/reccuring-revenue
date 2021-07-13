@@ -1,2 +1,3 @@
 .env
 endpoints/endpoints.json
+__pycache__
