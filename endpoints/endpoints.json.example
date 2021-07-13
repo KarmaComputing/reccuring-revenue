@@ -1,0 +1,3 @@
+[{"url":"https://example.com/open", "revenue_key": ["monthly_revenue"], "times-by-100": false},
+{"url":"https://example.co.uk/collected/{year}/{month}", "revenue_key": ["total-fees-collected", "in-pounds"], "times-by-100": true}
+]
