@@ -9,7 +9,23 @@ import json
 
 load_dotenv()  # take environment variables from .env.
 
-app = FastAPI()
+title = "Karma Computing Recuring Revenue"
+description = """
+View recuring revenue. <small>[Code](https://github.com/KarmaComputing/reccuring-revenue/settings)</small> 🚀
+
+# See also
+
+## Accounts & Cashflow
+
+- [Accounts & Cashflow](https://balance.dokku.karmacomputing.co.uk/docs) ([Code](https://github.com/KarmaComputing/balance))
+
+## Time Invested API
+
+- [Ad-Hoc support](https://time.karmacomputing.co.uk/) ([Code](https://github.com/KarmaComputing/time-api))
+
+"""
+
+app = FastAPI(description=description)
 
 
 @app.get("/")
